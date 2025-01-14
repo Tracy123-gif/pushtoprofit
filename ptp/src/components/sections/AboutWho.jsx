@@ -20,7 +20,7 @@ const AboutWho = () => {
       <div className='flex max-sm:flex-wrap justify-center items-center max-sm:p-5'>
         {/* image */}
         <div className='w-fit h-fit '>
-            <img src={gif} alt="" className='max-sm:relative max-sm:-left-16 rounded-3xl ' />
+            <img src={gif} alt="" className='max-sm:relative rounded-3xl ' />
         </div>
         {/* text */}
         <div className='p-10 flex flex-col gap-6  items-baseline h-fit max-sm:p-5'>
