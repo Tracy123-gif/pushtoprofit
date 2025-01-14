@@ -1,17 +1,11 @@
 import React, { useState } from "react";
 import axios from "axios";
 import SubmitMessageBtn from "../buttons/SubmitMessageBtn";
-import useGsapScrollAnimation from "../../GsapHook";
+
 
 
 const ContactForm = () => {
 
-  const ref = useGsapScrollAnimation({
-    from: { opacity: 0, y: 50 },
-    to: { opacity: 1, y: 0, duration: 1 },
-    enter: { opacity: 1, y: 0, duration: 1 },
-    leave: { opacity: 0, y: -50, duration: 1 },
-  });
 
 
 const url = import.meta.env.VITE_BACKEND_URL;
@@ -63,7 +57,7 @@ const url = import.meta.env.VITE_BACKEND_URL;
   };
 
   return (
-    <div ref={ref} className="contact-form bg-gray-200 p-9 w-1/2 max-sm:w-full max-sm:p-5 ">
+    <div className="contact-form bg-gray-200 p-9 w-1/2 max-sm:w-full max-sm:p-5 ">
       <h2 className="text-4xl text-yellow-700 my-5 ">Contact Us</h2>
       <form className="flex flex-col gap-7" onSubmit={handleSubmit} >
         <div className="grid grid-cols-2 max-md:grid-cols-1 gap-4">
