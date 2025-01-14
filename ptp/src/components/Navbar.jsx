@@ -4,7 +4,7 @@ import image from '../assets/pushLogo.png';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [bgColor, setBgColor] = useState('bg-transparent'); // Default background color
+  const [bgColor, setBgColor] = useState('bg-transparent text-white'); // Default background color
 
   useEffect(() => {
     const handleScroll = () => {
