@@ -32,7 +32,7 @@ const ContactDetials = () => {
            </div>
            <div className='flex flex-col'>
             <span className='text-md font-normal'>Email</span>
-            <span className=' font-normal text-xs '><a href="">pushtoprofitcommunity@gmail.com</a></span>
+            <span className=' font-normal text-xs '><a className='' href="">pushtoprofitcommunity@gmail.com</a></span>
             </div>
           </div>
           <div  className='p-2 border-2 border-yellow-600 border-opacity-30 rounded-md flex items-center gap-4'>

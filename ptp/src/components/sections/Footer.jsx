@@ -2,11 +2,11 @@ import React from "react";
 import {  Link } from 'react-router-dom'
 
 
-
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-gray-200 py-6 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
         <div className="flex flex-wrap justify-between gap-6">
           {/* About Us */}
           <div className="w-full sm:w-1/3">
@@ -63,8 +63,21 @@ const Footer = () => {
                 >
                   Instagram
                 </a>
-              </li>
+                
+              </li> 
+             
             </ul>
+            <li className="list-none mt-5">
+                <a
+                  href="mailto:th1044225@gmail.com?subject=Subject&body=Message%20is%20a%20test%20email."
+                  className="hoverText"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                 Contact the Developer
+                </a>
+                
+              </li>
           </div>
         </div>
         {/* Footer Bottom */}
