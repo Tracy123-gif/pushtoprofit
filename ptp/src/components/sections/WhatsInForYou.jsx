@@ -17,16 +17,17 @@ const WhatsInForYou = () => {
         <h1 className='text-4xl text-yellow-700 font-bold max-sm:text-3xl '><i>Heres whats you'll acheive with us</i></h1>
         <div className='flex flex-col gap-9'>
             <div>
-                <h1 className='font-bold text-2xl text-yellow-700'>Clear Growth Strategies</h1>
-                <p>Receive customized, actionable plans tailored to your business goals, ensuring measurable progress and long-term success.</p>
+                <h1 className='font-bold text-2xl text-yellow-700 '>Personal and Professional Growth</h1>
+                <p>  
+                Enhance your personal development, grow your ideas, and learn how to turn them into action to achieve real progress.</p>
             </div>
             <div>
-                <h1 className='font-bold text-2xl text-yellow-700'>Streamlined Operations</h1>
-                <p>Discover ways to optimize your workflows and resources, saving time, cutting costs, and boosting productivity.</p>
+                <h1 className='font-bold text-2xl text-yellow-700'>Optimized Workflows and Productivity</h1>
+                <p>You'll learn smart ways to optimize your workflows and resources, saving time, cutting costs, and boosting productivity.</p>
             </div>
             <div>
-                <h1 className='font-bold text-2xl text-yellow-700 '>Increased Profitability</h1>
-                <p >Unlock untapped revenue potential and maximize your profits with proven techniques and expert support.</p>
+                <h1 className='font-bold text-2xl text-yellow-700 '>Visibility and Profitabilityy</h1>
+                <p >You'll be able to set and meet your targets, become more visible to the right audience, and maximize profit.</p>
             </div>
         </div>
       </div>

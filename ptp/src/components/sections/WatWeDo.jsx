@@ -16,7 +16,9 @@ const WatWeDo = () => {
       <div className='grid grid-cols-2 justify-center w-full h-36  gap-10 px-8 text m-auto max-sm:grid-cols-1 max-sm:px-5'>
         <h1 className='text-4xl font-semibold text-yellow-800'><i>About Us</i></h1>
         <div className=''>
-            <p className='mb-4'>At Push to Profit, we’re dedicated to empowering individuals and businesses to achieve their goals. Through personalized consultations, actionable strategies, and unwavering support, we help you turn potential into profit. Let’s grow together!</p>
+            <p className='mb-4'>
+            Push to Profit is a business community that trains small and medium business owners to become better versions of themselves while making maximum profit in their businesses through a one-on-one coaching sessions and group trainings
+          </p>
             <AboutBtn/>
         </div>
       </div>
