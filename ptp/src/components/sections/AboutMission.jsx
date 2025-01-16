@@ -23,7 +23,7 @@ const AboutMission = () => {
            </div>
            {/* text */}
            <div className=' flex  flex-col gap-6  items-baseline h-fit max-sm:p-5'>
-               <h1 className='text-3xl '>WHat we offer</h1>
+               <h1 className='text-3xl '>What we offer</h1>
                <p>Our mission is simple: to unlock the full potential of every business we work with. We believe that with the right guidance, every challenge can become an opportunity, and every business can achieve its vision. The goal is to help develop and build business owners who own small and medium businesses.</p>
            </div>
          </div>

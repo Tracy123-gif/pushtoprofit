@@ -25,7 +25,7 @@ const AboutCore = () => {
               </div>
               {/* text */}
               <div className='p-10 flex flex-col gap-6  items-baseline h-fit max-sm:p-5'>
-                  <h1 className='text-3xl '>WHat We Stand For</h1>
+                  <h1 className='text-3xl '>What We Stand For</h1>
                   <p>Our core values guide everything we do. We uphold integrity, prioritizing honesty and transparency to build trust with our clients and partners. With a commitment to excellence, we strive for the highest standards, delivering exceptional quality in our work and outcomes. We believe in the power of collaboration, working closely with our clients to achieve shared goals. Staying ahead of the curve, we embrace innovation, leveraging creativity and forward-thinking solutions to drive success.</p>
               </div>
             </div>
